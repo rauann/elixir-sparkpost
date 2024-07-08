@@ -15,7 +15,7 @@ defmodule SparkPost.Mixfile do
        extras: ["README.md", "CONTRIBUTING.md", "CHANGELOG.md"]
      ],
      test_coverage: [tool: ExCoveralls],
-     preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test]
+     preferred_cli_env: [coveralls: :test, "coveralls.detail": :test, "coveralls.post": :test]
    ]
   end
 
